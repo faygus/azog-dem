@@ -1,0 +1,2 @@
+Look at this design : https://keenthemes.com/metronic/preview/demo4/
+Do not import font-awesome in this projet but import an azog-web-renderer which imports font-awesome

@@ -5,10 +5,13 @@
 	align-items: center;
 }
 
-.header {
-	display: flex;
-	align-items: center;
+Header {
+	margin-bottom: 20px;
 }
-.header img {
-	margin-right: 20px;
+
+.demoList {
+	width: 100%;
+}
+.demoList > * {
+	margin-top: 20px;
 }
