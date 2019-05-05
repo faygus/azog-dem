@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/azog-demo/static/css/main.dda8e3db.chunk.css",
-    "main.js": "/azog-demo/static/js/main.becac64e.chunk.js",
-    "main.js.map": "/azog-demo/static/js/main.becac64e.chunk.js.map",
+    "main.css": "/azog-demo/static/css/main.dd4dcb1b.chunk.css",
+    "main.js": "/azog-demo/static/js/main.39277737.chunk.js",
+    "main.js.map": "/azog-demo/static/js/main.39277737.chunk.js.map",
     "runtime~main.js": "/azog-demo/static/js/runtime~main.56e032a2.js",
     "runtime~main.js.map": "/azog-demo/static/js/runtime~main.56e032a2.js.map",
     "static/css/2.7bc09bb3.chunk.css": "/azog-demo/static/css/2.7bc09bb3.chunk.css",
     "static/js/2.1c833a2b.chunk.js": "/azog-demo/static/js/2.1c833a2b.chunk.js",
     "static/js/2.1c833a2b.chunk.js.map": "/azog-demo/static/js/2.1c833a2b.chunk.js.map",
     "index.html": "/azog-demo/index.html",
-    "precache-manifest.daca5aa8e47de83aaf8a450a9ed1b0bb.js": "/azog-demo/precache-manifest.daca5aa8e47de83aaf8a450a9ed1b0bb.js",
+    "precache-manifest.58188604af86cfb0ae3a80839d3fa484.js": "/azog-demo/precache-manifest.58188604af86cfb0ae3a80839d3fa484.js",
     "service-worker.js": "/azog-demo/service-worker.js",
     "static/css/2.7bc09bb3.chunk.css.map": "/azog-demo/static/css/2.7bc09bb3.chunk.css.map",
-    "static/css/main.dda8e3db.chunk.css.map": "/azog-demo/static/css/main.dda8e3db.chunk.css.map",
+    "static/css/main.dd4dcb1b.chunk.css.map": "/azog-demo/static/css/main.dd4dcb1b.chunk.css.map",
     "static/media/font-awesome.min.css": "/azog-demo/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
