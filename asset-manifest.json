@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/azog-demo/static/css/main.a81ff926.chunk.css",
+    "main.js": "/azog-demo/static/js/main.5ca8c5c6.chunk.js",
+    "main.js.map": "/azog-demo/static/js/main.5ca8c5c6.chunk.js.map",
+    "runtime~main.js": "/azog-demo/static/js/runtime~main.56e032a2.js",
+    "runtime~main.js.map": "/azog-demo/static/js/runtime~main.56e032a2.js.map",
+    "static/css/2.bd9a19c3.chunk.css": "/azog-demo/static/css/2.bd9a19c3.chunk.css",
+    "static/js/2.28ae1d79.chunk.js": "/azog-demo/static/js/2.28ae1d79.chunk.js",
+    "static/js/2.28ae1d79.chunk.js.map": "/azog-demo/static/js/2.28ae1d79.chunk.js.map",
+    "index.html": "/azog-demo/index.html",
+    "precache-manifest.d329034912abb1c46f105a99b0e3e12c.js": "/azog-demo/precache-manifest.d329034912abb1c46f105a99b0e3e12c.js",
+    "service-worker.js": "/azog-demo/service-worker.js",
+    "static/css/2.bd9a19c3.chunk.css.map": "/azog-demo/static/css/2.bd9a19c3.chunk.css.map",
+    "static/css/main.a81ff926.chunk.css.map": "/azog-demo/static/css/main.a81ff926.chunk.css.map",
+    "static/media/font-awesome.min.css": "/azog-demo/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
