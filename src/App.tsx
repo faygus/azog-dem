@@ -15,23 +15,26 @@ export default class App extends React.Component {
 	render() {
 
 		return (
-			<div className="host">
-				<Header />
-
-				<Container>
-					<Row>
-						<Col xs={2}>
-							<AppNav history={history} />
-						</Col>
-						<Col>
-							<Router history={history}>
-								<Route path="/" exact component={LabelPage} />
-								<Route path="/icon/" component={IconPage} />
-								<Route path="/uni-color" component={UniColorPage} />
-							</Router>
-						</Col>
-					</Row>
-				</Container>
+			<div>
+				<div className="header-wrapper">
+					<Header />
+				</div>
+				<div className="page-content">
+					<Container>
+						<Row>
+							<Col xs={2}>
+								<AppNav history={history} />
+							</Col>
+							<Col>
+								<Router history={history}>
+									<Route path="/" exact component={LabelPage} />
+									<Route path="/icon/" component={IconPage} />
+									<Route path="/uni-color" component={UniColorPage} />
+								</Router>
+							</Col>
+						</Row>
+					</Container>
+				</div>
 			</div>
 		);
 	}
