@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import { History } from 'history';
+import './nav.css';
 
 interface Props {
 	history: History<any>;

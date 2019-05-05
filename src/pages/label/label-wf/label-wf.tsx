@@ -9,7 +9,7 @@ export default class LabelWFDemo extends React.Component {
 			1: {
 				type: 'labelWF',
 				value: {
-					text: 'hey world ;)',
+					text: 'Hey world ;)',
 					style: {
 						color: 1,
 						size: 2
@@ -21,7 +21,7 @@ export default class LabelWFDemo extends React.Component {
 
 	render() {
 		return (
-			<Demo azogApp={this._azogApp} title="label (wireframe)"/>
+			<Demo azogApp={this._azogApp} title="label"/>
 		);
 	}
 }

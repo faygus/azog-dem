@@ -21,7 +21,7 @@ export default class IconWFDemo extends React.Component {
 
 	render() {
 		return (
-			<Demo azogApp={this._azogApp} title="icon (wireframe)"/>
+			<Demo azogApp={this._azogApp} title="icon"/>
 		);
 	}
 }

@@ -17,7 +17,7 @@ export default class UniColorWFDemo extends React.Component {
 
 	render() {
 		return (
-			<Demo azogApp={this._azogApp} title="uni color (wireframe)"/>
+			<Demo azogApp={this._azogApp} title="uni color"/>
 		);
 	}
 }
