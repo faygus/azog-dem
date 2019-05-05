@@ -1,10 +1,10 @@
-.card-header {
+.azog-card-header {
 	padding: 10px 20px;
 	color: white;
 	background-color: #aaaaff;
 }
 
-.card-content {
+.azog-card-content {
 	padding: 20px;
 	border: solid 2px #aaaaff;
 }

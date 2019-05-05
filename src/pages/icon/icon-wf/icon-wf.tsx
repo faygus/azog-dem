@@ -1,6 +1,6 @@
 import React from 'react';
 import * as azog from 'azog';
-import Demo from '../demo';
+import Demo from '../../../demo/demo';
 
 export default class IconWFDemo extends React.Component {
 

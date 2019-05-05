@@ -10,11 +10,11 @@ export default class Card extends React.Component<Props> {
 	render() {
 		const { title } = this.props;
 		return (
-			<div className="card">
-				<div className="card-header">
+			<div className="azog-card">
+				<div className="azog-card-header">
 					{title}
 				</div>
-				<div className="card-content">
+				<div className="azog-card-content">
 					{this.props.children}
 				</div>
 			</div>

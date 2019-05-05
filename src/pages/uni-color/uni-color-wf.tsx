@@ -1,6 +1,6 @@
 import React from 'react';
+import Demo from '../../demo/demo';
 import * as azog from 'azog';
-import Demo from '../demo';
 
 export default class UniColorWFDemo extends React.Component {
 
