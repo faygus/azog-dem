@@ -34,15 +34,23 @@ export default class RouterDemo extends React.Component {
 				}
 			},
 			3: {
-				type: 'uniColorWF',
+				type: 'iconWF',
 				value: {
-					color: 2
+					iconName: 'calendar',
+					style: {
+						color: 2,
+						size: 1
+					}
 				}
 			},
 			4: {
-				type: 'uniColorWF',
+				type: 'labelWF',
 				value: {
-					color: 0
+					text: 'Hey world',
+					style: {
+						color: 1,
+						size: 2
+					}
 				}
 			},
 		},
