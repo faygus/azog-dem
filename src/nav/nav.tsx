@@ -19,6 +19,8 @@ export default class AppNav extends React.Component<Props> {
 				<Nav.Link eventKey="">Label</Nav.Link>
 				<Nav.Link eventKey="icon">Icon</Nav.Link>
 				<Nav.Link eventKey="uni-color">Uni color</Nav.Link>
+				<Nav.Link eventKey="layers">Layers</Nav.Link>
+				<Nav.Link eventKey="router">Router</Nav.Link>
 				{/*<Nav.Link eventKey="disabled" disabled>
 					Disabled
 				</Nav.Link>*/}
