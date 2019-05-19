@@ -33,7 +33,8 @@ export default class Sider extends React.Component<Props, State> {
 	private handleRoute(location: Location<any>) {
 		for (const item in menuItemUrlMap) {
 			const path = (menuItemUrlMap as any)[item];
-			if (`/${path}` === location.pathname) {
+			const fullPath = (CONFIG.prefixInUrl ? `/${CONFIG.prefixInUrl}`: '') + `/${path}`;
+			if (fullPath === location.pathname) {
 				this.setState({
 					selectedItem: Number(item)
 				});
