@@ -7,7 +7,6 @@ const history = createBrowserHistory();
 
 export default class App extends React.Component {
 	render() {
-
 		return (
 			<MainLayout history={history}/>
 		);

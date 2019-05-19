@@ -5,5 +5,6 @@ export enum MenuItem {
 	ICON_WF,
 	UNI_COLOR_WF,
 	ROUTER,
-	IF
+	IF,
+	FOR_LOOP
 }

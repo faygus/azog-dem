@@ -5,5 +5,6 @@ export const ROUTES = {
 	iconWF: 'icon-wf',
 	uniColorWF: 'uni-color-wf',
 	router: 'router',
-	if: 'if'
+	if: 'if',
+	forLoop: 'for-loop'
 };

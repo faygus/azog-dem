@@ -3,6 +3,7 @@ import { Menu } from 'antd';
 import { History, Location } from 'history';
 import { ROUTES } from '../routing';
 import { MenuItem } from './menu-item';
+import { CONFIG } from '../config';
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -45,7 +46,8 @@ export default class Sider extends React.Component<Props, State> {
 		const key = e.key;
 		const k: MenuItem = Number(key);
 		const url = menuItemUrlMap[k];
-		this.props.history.push('/' + url);
+		const path = (CONFIG.prefixInUrl ? `/${CONFIG.prefixInUrl}`: '') + `/${url}`;
+		this.props.history.push(path);
 	};
 
 	render() {
@@ -74,6 +76,7 @@ export default class Sider extends React.Component<Props, State> {
 					<MenuItemGroup key="g3" title="View logic">
 						<Menu.Item key={MenuItem.ROUTER}>Router</Menu.Item>
 						<Menu.Item key={MenuItem.IF}>If</Menu.Item>
+						<Menu.Item key={MenuItem.FOR_LOOP}>For loop</Menu.Item>
 					</MenuItemGroup>
 				</SubMenu>
 			</Menu>
@@ -88,5 +91,6 @@ const menuItemUrlMap = {
 	[MenuItem.ICON_WF]: ROUTES.iconWF,
 	[MenuItem.UNI_COLOR_WF]: ROUTES.uniColorWF,
 	[MenuItem.ROUTER]: ROUTES.router,
-	[MenuItem.IF]: ROUTES.if
+	[MenuItem.IF]: ROUTES.if,
+	[MenuItem.FOR_LOOP]: ROUTES.forLoop
 };
