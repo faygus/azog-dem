@@ -9,6 +9,8 @@ import RouterPage from '../pages/router/router-page';
 import IfPage from '../pages/if/if-page';
 import { CONFIG } from '../config';
 import ForLoopPage from '../pages/for-loop/for-loop-page';
+import LayersPage from '../pages/layers/layers-page';
+import LayoutPage from '../pages/layout/layout-page';
 
 interface Props {
 	history: History;
@@ -41,11 +43,12 @@ export default class PageHolder extends React.Component<Props> {
 }
 
 const componentsRouteMap = {
-	// [ROUTES.layers]: LabelPage, // TODO
+	[ROUTES.layers]: LayersPage,
 	[ROUTES.labelWF]: LabelPage,
 	[ROUTES.iconWF]: IconPage,
 	[ROUTES.uniColorWF]: UniColorPage,
 	[ROUTES.router]: RouterPage,
 	[ROUTES.if]: IfPage,
-	[ROUTES.forLoop]: ForLoopPage
+	[ROUTES.forLoop]: ForLoopPage,
+	[ROUTES.layout]: LayoutPage,
 }

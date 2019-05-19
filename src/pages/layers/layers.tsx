@@ -4,7 +4,7 @@ import * as azog from 'azog';
 
 export default class LayersDemo extends React.Component {
 
-	/*private _azogApp: azog.IAppJSON = {
+	private _azogApp: azog.IAppJSON = {
 		views: {
 			1: {
 				type: 'layers',
@@ -13,22 +13,8 @@ export default class LayersDemo extends React.Component {
 						zIndex: 1,
 						positionInsideHost: {
 							vertical: {
-								center: {
-									relativeTo: 'start',
-									space: {
-										value: 50,
-										unit: '%'
-									}
-								}
 							},
 							horizontal: {
-								center: {
-									relativeTo: 'start',
-									space: {
-										value: 50,
-										unit: '%'
-									}
-								}
 							}
 						},
 						component: {
@@ -72,14 +58,11 @@ export default class LayersDemo extends React.Component {
 				}
 			}
 		}
-	}*/
+	}
 
 	render() {
-		/*return (
-			<Demo azogApp={this._azogApp} title="layers" />
-		);*/
 		return (
-			<div></div>
+			<Demo azogApp={this._azogApp} title="layers" />
 		);
 	}
 }
