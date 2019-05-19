@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66642172534e2360c8f64f1854fe9608",
+    "revision": "b456be1831cf78aa7df4c07ae9faf860",
     "url": "/azog-demo/index.html"
   },
   {
-    "revision": "56d727bb54cebaa35c52",
-    "url": "/azog-demo/static/css/2.7bc09bb3.chunk.css"
+    "revision": "18624a47063832c67247",
+    "url": "/azog-demo/static/css/2.d86165b5.chunk.css"
   },
   {
-    "revision": "ca8e9100085dad1b7ef0",
-    "url": "/azog-demo/static/css/main.1ba30ad1.chunk.css"
+    "revision": "38fc7fb7f19f31eadc3f",
+    "url": "/azog-demo/static/css/main.faf55263.chunk.css"
   },
   {
-    "revision": "56d727bb54cebaa35c52",
-    "url": "/azog-demo/static/js/2.3032655e.chunk.js"
+    "revision": "18624a47063832c67247",
+    "url": "/azog-demo/static/js/2.a9e1e0cc.chunk.js"
   },
   {
-    "revision": "ca8e9100085dad1b7ef0",
-    "url": "/azog-demo/static/js/main.13f14e01.chunk.js"
+    "revision": "38fc7fb7f19f31eadc3f",
+    "url": "/azog-demo/static/js/main.f0457b52.chunk.js"
   },
   {
     "revision": "583b9cb8107dad799f74",
     "url": "/azog-demo/static/js/runtime~main.56e032a2.js"
+  },
+  {
+    "revision": "c9758c778c260183504caea1343a30c6",
+    "url": "/azog-demo/static/media/federer.c9758c77.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -42,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/azog-demo/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "dae96d00722a05f438dbc9e8df876549",
+    "url": "/azog-demo/static/media/nadal.dae96d00.jpg"
   }
 ]);

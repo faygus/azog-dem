@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/azog-demo/static/css/main.1ba30ad1.chunk.css",
-    "main.js": "/azog-demo/static/js/main.13f14e01.chunk.js",
-    "main.js.map": "/azog-demo/static/js/main.13f14e01.chunk.js.map",
+    "main.css": "/azog-demo/static/css/main.faf55263.chunk.css",
+    "main.js": "/azog-demo/static/js/main.f0457b52.chunk.js",
+    "main.js.map": "/azog-demo/static/js/main.f0457b52.chunk.js.map",
     "runtime~main.js": "/azog-demo/static/js/runtime~main.56e032a2.js",
     "runtime~main.js.map": "/azog-demo/static/js/runtime~main.56e032a2.js.map",
-    "static/css/2.7bc09bb3.chunk.css": "/azog-demo/static/css/2.7bc09bb3.chunk.css",
-    "static/js/2.3032655e.chunk.js": "/azog-demo/static/js/2.3032655e.chunk.js",
-    "static/js/2.3032655e.chunk.js.map": "/azog-demo/static/js/2.3032655e.chunk.js.map",
+    "static/css/2.d86165b5.chunk.css": "/azog-demo/static/css/2.d86165b5.chunk.css",
+    "static/js/2.a9e1e0cc.chunk.js": "/azog-demo/static/js/2.a9e1e0cc.chunk.js",
+    "static/js/2.a9e1e0cc.chunk.js.map": "/azog-demo/static/js/2.a9e1e0cc.chunk.js.map",
     "index.html": "/azog-demo/index.html",
-    "precache-manifest.cbc6df37471d7ffb74d57687ffb6fcbc.js": "/azog-demo/precache-manifest.cbc6df37471d7ffb74d57687ffb6fcbc.js",
+    "precache-manifest.25a50acc9dd4397fd96e89931caf6b01.js": "/azog-demo/precache-manifest.25a50acc9dd4397fd96e89931caf6b01.js",
     "service-worker.js": "/azog-demo/service-worker.js",
-    "static/css/2.7bc09bb3.chunk.css.map": "/azog-demo/static/css/2.7bc09bb3.chunk.css.map",
-    "static/css/main.1ba30ad1.chunk.css.map": "/azog-demo/static/css/main.1ba30ad1.chunk.css.map",
-    "static/media/font-awesome.min.css": "/azog-demo/static/media/fontawesome-webfont.fee66e71.woff"
+    "static/css/2.d86165b5.chunk.css.map": "/azog-demo/static/css/2.d86165b5.chunk.css.map",
+    "static/css/main.faf55263.chunk.css.map": "/azog-demo/static/css/main.faf55263.chunk.css.map",
+    "static/media/federer.jpg": "/azog-demo/static/media/federer.c9758c77.jpg",
+    "static/media/font-awesome.min.css": "/azog-demo/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/nadal.jpg": "/azog-demo/static/media/nadal.dae96d00.jpg"
   }
 }
