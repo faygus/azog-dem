@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8841b5ae64671cc281d0e923696b074f",
+    "revision": "d413530ed18cc5ceea587e1d1e20ff2b",
     "url": "/azog-demo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/azog-demo/static/css/2.d86165b5.chunk.css"
   },
   {
-    "revision": "82746a4b86a753e88dee",
+    "revision": "2b3a8866eb89168f6616",
     "url": "/azog-demo/static/css/main.72d8cf33.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/azog-demo/static/js/2.f4dd9e50.chunk.js"
   },
   {
-    "revision": "82746a4b86a753e88dee",
-    "url": "/azog-demo/static/js/main.3a3015cb.chunk.js"
+    "revision": "2b3a8866eb89168f6616",
+    "url": "/azog-demo/static/js/main.be240fc8.chunk.js"
   },
   {
     "revision": "583b9cb8107dad799f74",
