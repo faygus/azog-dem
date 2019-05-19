@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/azog-demo/static/css/main.72d8cf33.chunk.css",
-    "main.js": "/azog-demo/static/js/main.be240fc8.chunk.js",
-    "main.js.map": "/azog-demo/static/js/main.be240fc8.chunk.js.map",
+    "main.js": "/azog-demo/static/js/main.3a3015cb.chunk.js",
+    "main.js.map": "/azog-demo/static/js/main.3a3015cb.chunk.js.map",
     "runtime~main.js": "/azog-demo/static/js/runtime~main.56e032a2.js",
     "runtime~main.js.map": "/azog-demo/static/js/runtime~main.56e032a2.js.map",
     "static/css/2.d86165b5.chunk.css": "/azog-demo/static/css/2.d86165b5.chunk.css",
     "static/js/2.f4dd9e50.chunk.js": "/azog-demo/static/js/2.f4dd9e50.chunk.js",
     "static/js/2.f4dd9e50.chunk.js.map": "/azog-demo/static/js/2.f4dd9e50.chunk.js.map",
     "index.html": "/azog-demo/index.html",
-    "precache-manifest.b76c0edf4daffca2447d7b518fae92dd.js": "/azog-demo/precache-manifest.b76c0edf4daffca2447d7b518fae92dd.js",
+    "precache-manifest.fb39ecba0a71917e2b9d1d22fc5bc37e.js": "/azog-demo/precache-manifest.fb39ecba0a71917e2b9d1d22fc5bc37e.js",
     "service-worker.js": "/azog-demo/service-worker.js",
     "static/css/2.d86165b5.chunk.css.map": "/azog-demo/static/css/2.d86165b5.chunk.css.map",
     "static/css/main.72d8cf33.chunk.css.map": "/azog-demo/static/css/main.72d8cf33.chunk.css.map",
