@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b77d1ca63472dcfddc4b4dfac1dc2b57",
+    "revision": "9777a6305bc32bc1dfc889fc378d1c34",
     "url": "/azog-demo/index.html"
   },
   {
-    "revision": "18624a47063832c67247",
+    "revision": "f770c57a2a4c703e193e",
     "url": "/azog-demo/static/css/2.d86165b5.chunk.css"
   },
   {
-    "revision": "4d6470bbd4e6a25f4e58",
-    "url": "/azog-demo/static/css/main.faf55263.chunk.css"
+    "revision": "60aff5326df68bb12113",
+    "url": "/azog-demo/static/css/main.4bea2e06.chunk.css"
   },
   {
-    "revision": "18624a47063832c67247",
-    "url": "/azog-demo/static/js/2.a9e1e0cc.chunk.js"
+    "revision": "f770c57a2a4c703e193e",
+    "url": "/azog-demo/static/js/2.5a12b6f8.chunk.js"
   },
   {
-    "revision": "4d6470bbd4e6a25f4e58",
-    "url": "/azog-demo/static/js/main.14c4fd5e.chunk.js"
+    "revision": "60aff5326df68bb12113",
+    "url": "/azog-demo/static/js/main.e5ba22e3.chunk.js"
   },
   {
     "revision": "583b9cb8107dad799f74",
