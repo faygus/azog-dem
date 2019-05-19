@@ -1,0 +1,19 @@
+.ant-layout {
+	background: none;
+	min-height: 100%;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-content {
+	padding: 0 20px;
+	margin-top: 20px;
+}
+
+.page-area {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}

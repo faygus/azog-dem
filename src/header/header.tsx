@@ -7,7 +7,7 @@ export default class Header extends React.Component {
 		return (
 			<div className="header">
 				<img src={logo} className="logo" alt="logo" />
-				<h2>Azog demo</h2>
+				<h5>Azog demo</h5>
 			</div>
 		);
 	}
