@@ -1,12 +1,24 @@
 .header {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	border-bottom: 1px solid #eff0f6;
 	padding: 10px 40px;
 	box-shadow: 0 2px 8px #f0f1f2;
 	background: white;
 }
-.header img {
+.header .logo {
 	margin-right: 20px;
 	height: 40px;
+}
+.inline {
+	display: flex;
+	align-items: center;
+}
+.header h5 {
+	margin-bottom: 0;
+}
+.github img {
+	height: 40px;
+	margin-right: 10px;
 }

@@ -11,6 +11,7 @@ import { CONFIG } from '../config';
 import ForLoopPage from '../pages/for-loop/for-loop-page';
 import LayersPage from '../pages/layers/layers-page';
 import LayoutPage from '../pages/layout/layout-page';
+import ImagePage from '../pages/image/image-page';
 
 interface Props {
 	history: History;
@@ -51,4 +52,5 @@ const componentsRouteMap = {
 	[ROUTES.if]: IfPage,
 	[ROUTES.forLoop]: ForLoopPage,
 	[ROUTES.layout]: LayoutPage,
+	[ROUTES.image]: ImagePage,
 }

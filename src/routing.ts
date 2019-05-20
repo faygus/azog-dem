@@ -6,5 +6,6 @@ export const ROUTES = {
 	uniColorWF: 'uni-color-wf',
 	router: 'router',
 	if: 'if',
-	forLoop: 'for-loop'
+	forLoop: 'for-loop',
+	image: 'image'
 };

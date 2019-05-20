@@ -74,7 +74,10 @@ export default class Sider extends React.Component<Props, State> {
 						<Menu.Item key={MenuItem.ICON_WF}>Icon</Menu.Item>
 						<Menu.Item key={MenuItem.UNI_COLOR_WF}>Uni color</Menu.Item>
 					</MenuItemGroup>
-					<MenuItemGroup key="g3" title="View logic">
+					<MenuItemGroup key="g3" title="Controls">
+						<Menu.Item key={MenuItem.IMAGE}>Image</Menu.Item>
+					</MenuItemGroup>
+					<MenuItemGroup key="g4" title="View logic">
 						<Menu.Item key={MenuItem.ROUTER}>Router</Menu.Item>
 						<Menu.Item key={MenuItem.IF}>If</Menu.Item>
 						<Menu.Item key={MenuItem.FOR_LOOP}>For loop</Menu.Item>
@@ -93,5 +96,6 @@ const menuItemUrlMap = {
 	[MenuItem.UNI_COLOR_WF]: ROUTES.uniColorWF,
 	[MenuItem.ROUTER]: ROUTES.router,
 	[MenuItem.IF]: ROUTES.if,
-	[MenuItem.FOR_LOOP]: ROUTES.forLoop
+	[MenuItem.FOR_LOOP]: ROUTES.forLoop,
+	[MenuItem.IMAGE]: ROUTES.image,
 };
