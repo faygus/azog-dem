@@ -19,7 +19,7 @@ export default class MainLayout extends React.Component<Props> {
 					<div className="logo" />
 				</Header>
 				<Content>
-					<div className="row main-content">
+					<div className="az-row main-content">
 						<Sider history={this.props.history} />
 						<div className="page-area">
 							<PageHolder history={this.props.history}/>
