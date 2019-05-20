@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e796022d58c2500544776151e6dfcb09",
+    "revision": "cf670b14e506afca8607a642f200a0e6",
     "url": "/azog-demo/index.html"
   },
   {
-    "revision": "be649a618f872661c791",
+    "revision": "8805983bf6f2cebf4b1f",
     "url": "/azog-demo/static/css/2.d86165b5.chunk.css"
   },
   {
-    "revision": "5cbb261675168d851563",
-    "url": "/azog-demo/static/css/main.c57cf957.chunk.css"
+    "revision": "ee38bd8a4c116c873974",
+    "url": "/azog-demo/static/css/main.3827ca16.chunk.css"
   },
   {
-    "revision": "be649a618f872661c791",
-    "url": "/azog-demo/static/js/2.46424c6e.chunk.js"
+    "revision": "8805983bf6f2cebf4b1f",
+    "url": "/azog-demo/static/js/2.2eca913c.chunk.js"
   },
   {
-    "revision": "5cbb261675168d851563",
-    "url": "/azog-demo/static/js/main.5b6af5ce.chunk.js"
+    "revision": "ee38bd8a4c116c873974",
+    "url": "/azog-demo/static/js/main.065d926d.chunk.js"
   },
   {
     "revision": "583b9cb8107dad799f74",
