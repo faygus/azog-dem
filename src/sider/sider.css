@@ -1,0 +1,8 @@
+.ant-menu-root {
+	position: fixed;
+	left: 20px;
+	top: 60px;
+	bottom: 0px;
+	overflow-y: auto;
+	z-index: 1;
+}

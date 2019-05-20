@@ -4,6 +4,7 @@ import { History, Location } from 'history';
 import { ROUTES } from '../routing';
 import { MenuItem } from './menu-item';
 import { CONFIG } from '../config';
+import './sider.css';
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;

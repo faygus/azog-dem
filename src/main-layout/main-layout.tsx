@@ -1,11 +1,11 @@
 import { Layout } from 'antd';
+import { History } from 'history';
 import React from 'react';
 import Header from '../header/header';
+import PageHolder from '../page-holder/page-holder';
 import Sider from '../sider/sider';
 import './main-layout.css';
-import { History } from 'history';
-import PageHolder from '../page-holder/page-holder';
-const { Content, Footer } = Layout;
+const { Footer } = Layout;
 
 interface Props {
 	history: History;
@@ -14,20 +14,16 @@ interface Props {
 export default class MainLayout extends React.Component<Props> {
 	render() {
 		return (
-			<Layout className="layout">
+			<div className="az-layout">
 				<Header>
 					<div className="logo" />
 				</Header>
-				<Content>
-					<div className="az-row main-content">
-						<Sider history={this.props.history} />
-						<div className="page-area">
-							<PageHolder history={this.props.history}/>
-						</div>
-					</div>
-				</Content>
+				<Sider history={this.props.history} />
+				<div className="page-area">
+					<PageHolder history={this.props.history} />
+				</div>
 				<Footer style={{ textAlign: 'center' }}>Azog ©2018 Created by Faygus</Footer>
-			</Layout>
+			</div>
 		);
 	}
 }
