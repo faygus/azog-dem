@@ -10,7 +10,7 @@ Header {
 .demoList {
 	width: 100%;
 }
-.demoList > * {
+.demoList > *:not(:first-child) {
 	margin-top: 20px;
 }
 .header-wrapper {

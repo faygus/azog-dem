@@ -1,9 +1,7 @@
-import { createBrowserHistory } from 'history';
 import React from 'react';
 import './App.css';
 import MainLayout from './main-layout/main-layout';
-
-const history = createBrowserHistory();
+import history from './history';
 
 export default class App extends React.Component {
 	private _menu?: HTMLElement;

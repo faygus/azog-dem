@@ -1,0 +1,10 @@
+.example-container {
+	margin-top: 40px;
+}
+
+.example-card {
+	height: 190px;
+	width: 400px;
+	position: relative;
+	margin: auto;
+}

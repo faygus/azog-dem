@@ -5,13 +5,19 @@
 }
 
 .page-area {
-	margin-top: 80px;
-	margin-left: 295px;
+	margin-left: 275px;
 	margin-bottom: 20px;
 	min-height: 100%;
-	flex: 1;
+	padding: 20px;
 }
 
 .header {
 	position: fixed;
+}
+
+.page-content {
+	padding-top: 60px;
+	min-height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
 }

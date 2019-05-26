@@ -17,8 +17,8 @@ export default class LayersDemo extends React.Component {
 							horizontal: {
 							}
 						},
-						component: {
-							componentId: 2
+						componentInfos: {
+							id: 2
 						}
 					},
 					subLayers: [
@@ -34,8 +34,8 @@ export default class LayersDemo extends React.Component {
 									end: 20
 								}
 							},
-							component: {
-								componentId: 3
+							componentInfos: {
+								id: 3
 							}
 						}
 					]

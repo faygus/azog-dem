@@ -3,7 +3,6 @@ import { Menu } from 'antd';
 import { History, Location } from 'history';
 import { ROUTES } from '../routing';
 import { MenuItem } from './menu-item';
-import { CONFIG } from '../config';
 import './sider.css';
 
 const SubMenu = Menu.SubMenu;
@@ -34,7 +33,7 @@ export default class Sider extends React.Component<Props, State> {
 	private handleRoute(location: Location<any>) {
 		for (const item in menuItemUrlMap) {
 			const path = (menuItemUrlMap as any)[item];
-			const fullPath = (CONFIG.prefixInUrl ? `/${CONFIG.prefixInUrl}`: '') + `/${path}`;
+			const fullPath = `/components/${path}`;
 			if (fullPath === location.pathname) {
 				this.setState({
 					selectedItem: Number(item)
@@ -48,43 +47,45 @@ export default class Sider extends React.Component<Props, State> {
 		const key = e.key;
 		const k: MenuItem = Number(key);
 		const url = menuItemUrlMap[k];
-		const path = (CONFIG.prefixInUrl ? `/${CONFIG.prefixInUrl}`: '') + `/${url}`;
+		const path = `/components/${url}`;
 		this.props.history.push(path);
 	};
 
 	render() {
 		return (
-			<Menu
-				onClick={this.handleClick}
-				style={{ width: 256 }}
-				selectedKeys={[this.state.selectedItem + '']}
-				defaultSelectedKeys={[MenuItem.LABEL_WF + '']}
-				defaultOpenKeys={['sub1']}
-				mode="inline"
-			>
-				<SubMenu
-					key="sub1"
-					title="Components"
+			<div className="app-menu">
+				<Menu
+					onClick={this.handleClick}
+					style={{ width: 256 }}
+					selectedKeys={[this.state.selectedItem + '']}
+					defaultSelectedKeys={[MenuItem.LABEL_WF + '']}
+					defaultOpenKeys={['sub1']}
+					mode="inline"
 				>
-					<MenuItemGroup key="g1" title="Layout">
-						<Menu.Item key={MenuItem.LAYERS}>Layers</Menu.Item>
-						<Menu.Item key={MenuItem.LAYOUT}>Vertical/horizontal layout</Menu.Item>
-					</MenuItemGroup>
-					<MenuItemGroup key="g2" title="Wireframe">
-						<Menu.Item key={MenuItem.LABEL_WF}>Label</Menu.Item>
-						<Menu.Item key={MenuItem.ICON_WF}>Icon</Menu.Item>
-						<Menu.Item key={MenuItem.UNI_COLOR_WF}>Uni color</Menu.Item>
-					</MenuItemGroup>
-					<MenuItemGroup key="g3" title="Controls">
-						<Menu.Item key={MenuItem.IMAGE}>Image</Menu.Item>
-					</MenuItemGroup>
-					<MenuItemGroup key="g4" title="View logic">
-						<Menu.Item key={MenuItem.ROUTER}>Router</Menu.Item>
-						<Menu.Item key={MenuItem.IF}>If</Menu.Item>
-						<Menu.Item key={MenuItem.FOR_LOOP}>For loop</Menu.Item>
-					</MenuItemGroup>
-				</SubMenu>
-			</Menu>
+					<SubMenu
+						key="sub1"
+						title="Components"
+					>
+						<MenuItemGroup key="g1" title="Layout">
+							<Menu.Item key={MenuItem.LAYERS}>Layers</Menu.Item>
+							<Menu.Item key={MenuItem.LAYOUT}>Vertical/horizontal layout</Menu.Item>
+						</MenuItemGroup>
+						<MenuItemGroup key="g2" title="Wireframe">
+							<Menu.Item key={MenuItem.LABEL_WF}>Label</Menu.Item>
+							<Menu.Item key={MenuItem.ICON_WF}>Icon</Menu.Item>
+							<Menu.Item key={MenuItem.UNI_COLOR_WF}>Uni color</Menu.Item>
+						</MenuItemGroup>
+						<MenuItemGroup key="g3" title="Controls">
+							<Menu.Item key={MenuItem.IMAGE}>Image</Menu.Item>
+						</MenuItemGroup>
+						<MenuItemGroup key="g4" title="View logic">
+							<Menu.Item key={MenuItem.ROUTER}>Router</Menu.Item>
+							<Menu.Item key={MenuItem.IF}>If</Menu.Item>
+							<Menu.Item key={MenuItem.FOR_LOOP}>For loop</Menu.Item>
+						</MenuItemGroup>
+					</SubMenu>
+				</Menu>
+			</div>
 		);
 	}
 }
