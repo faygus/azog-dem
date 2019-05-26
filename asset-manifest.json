@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/azog-demo/static/css/main.3827ca16.chunk.css",
-    "main.js": "/azog-demo/static/js/main.065d926d.chunk.js",
-    "main.js.map": "/azog-demo/static/js/main.065d926d.chunk.js.map",
+    "main.css": "/azog-demo/static/css/main.8878446e.chunk.css",
+    "main.js": "/azog-demo/static/js/main.452204af.chunk.js",
+    "main.js.map": "/azog-demo/static/js/main.452204af.chunk.js.map",
     "runtime~main.js": "/azog-demo/static/js/runtime~main.56e032a2.js",
     "runtime~main.js.map": "/azog-demo/static/js/runtime~main.56e032a2.js.map",
     "static/css/2.d86165b5.chunk.css": "/azog-demo/static/css/2.d86165b5.chunk.css",
-    "static/js/2.2eca913c.chunk.js": "/azog-demo/static/js/2.2eca913c.chunk.js",
-    "static/js/2.2eca913c.chunk.js.map": "/azog-demo/static/js/2.2eca913c.chunk.js.map",
+    "static/js/2.8fbbbcbb.chunk.js": "/azog-demo/static/js/2.8fbbbcbb.chunk.js",
+    "static/js/2.8fbbbcbb.chunk.js.map": "/azog-demo/static/js/2.8fbbbcbb.chunk.js.map",
     "index.html": "/azog-demo/index.html",
-    "precache-manifest.4b0d2b24903c48c2886e19fbfdc94423.js": "/azog-demo/precache-manifest.4b0d2b24903c48c2886e19fbfdc94423.js",
+    "precache-manifest.2f1febfa423a8dfe2cc41c2b19b9ac62.js": "/azog-demo/precache-manifest.2f1febfa423a8dfe2cc41c2b19b9ac62.js",
     "service-worker.js": "/azog-demo/service-worker.js",
     "static/css/2.d86165b5.chunk.css.map": "/azog-demo/static/css/2.d86165b5.chunk.css.map",
-    "static/css/main.3827ca16.chunk.css.map": "/azog-demo/static/css/main.3827ca16.chunk.css.map",
+    "static/css/main.8878446e.chunk.css.map": "/azog-demo/static/css/main.8878446e.chunk.css.map",
     "static/media/federer.jpg": "/azog-demo/static/media/federer.c9758c77.jpg",
     "static/media/font-awesome.min.css": "/azog-demo/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/nadal.jpg": "/azog-demo/static/media/nadal.dae96d00.jpg"
+    "static/media/nadal.jpg": "/azog-demo/static/media/nadal.dae96d00.jpg",
+    "static/media/spain.png": "/azog-demo/static/media/spain.2983be30.png"
   }
 }
